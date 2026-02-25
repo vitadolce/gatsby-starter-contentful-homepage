@@ -15,10 +15,10 @@ This is a **Gatsby 4 Starter Contentful Homepage** — a static site built with 
 
 The following secrets must be configured for the dev server and build to work:
 
-| Variable | Required | Purpose |
-|---|---|---|
-| `CONTENTFUL_SPACE_ID` | Yes | Contentful space identifier |
-| `CONTENTFUL_ACCESS_TOKEN` | Yes | Content Delivery API key |
+| Variable                  | Required | Purpose                     |
+| ------------------------- | -------- | --------------------------- |
+| `CONTENTFUL_SPACE_ID`     | Yes      | Contentful space identifier |
+| `CONTENTFUL_ACCESS_TOKEN` | Yes      | Content Delivery API key    |
 
 These are injected as environment variables from Cursor Cloud secrets. Alternatively, create `.env.development` (see `.env.EXAMPLE`).
 
